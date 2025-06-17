@@ -16,7 +16,7 @@ Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, 
 - [5. Comparación Final de Modelos y Selección del Ganador](#5-comparación-final-de-modelos-y-selección-del-ganador)
 - [6. Pronóstico Final con Modelo Seleccionado GLM Gaussiano](#6-pronóstico-con-el-modelo-seleccionado-glm-gaussiano)
 - [7. Analisis de Estacionalidad STL](#7-análisis-de-estacionalidad-stl)
-- [8. Evaluacion Ex-Post con Datos Reales Observados Oct 2024 - May 2025]
+- [8. Evaluacion Ex-Post con Datos Reales Observados Oct 2024 - May 2025](#8-evaluación-ex-post-con-datos-reales-observados-oct-2024--may-2025)
 - [9. Reflexion Final y Aprendizajes](#9-reflexión-final-y-apredizajes)
 ---
 
