@@ -36,15 +36,19 @@ The goal was to evaluate multiple modeling families (statistical, machine learni
 
 ---
 
-## ✅ Best Performing Model
+🏁 Key Results  
+Based on the best-performing models from each category, the following table summarizes the main error metrics (with **RMSE** used as the primary criterion). The findings were:
 
-For the three series, the **GLM Gaussian model** showed the best predictive performance based on error metrics (MAE, RMSE, MAPE) and STL decomposition insights.
+| Commodity | Classical ML                | Neural Networks         | Statistical Models           | AutoTS Ensemble       | Final Winner        |
+|-----------|-----------------------------|-------------------------|------------------------------|-----------------------|---------------------|
+| Beef      | AdaBoost Regressor (0.3112) | Tuned LSTM (0.2157)     | **GLM Gaussian (0.1935)**    | Ensemble (0.49)       |  GLM Gaussian       |
+| Corn      | Gradient Boosting (21.15)   | Tuned NNAR (17.47)      | **GLM Gaussian (16.74)**     | Ensemble (60.24)      |  GLM Gaussian       |
+| Soybeans  | AdaBoost Regressor (48.65)  | Simple LSTM (37.38)     | **GLM Gaussian (32.56)**     | Ensemble (166.02)     |  GLM Gaussian       |
+ 
+🔍 The **GLM Gaussian model** proved to be the most effective across all three commodities, consistently achieving the lowest **Root Mean Square Error (RMSE)** and demonstrating more stable behavior compared to other approaches.
 
-| Commodity | Best Model     | MAPE     |
-|-----------|----------------|----------|
-| Beef      | GLM Gaussian   | 13.2%    |
-| Corn      | GLM Gaussian   | 14.8%    |
-| Soybeans  | GLM Gaussian   | 10.5%    |
+The 12-month forecasts were then compared to the **actual values observed between October 2024 and May 2025**.
+
 
 ---
 
