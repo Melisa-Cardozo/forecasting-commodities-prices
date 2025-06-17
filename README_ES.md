@@ -60,7 +60,7 @@ Este proyecto me permitió comparar enfoques clásicos, estadísticos y neuronal
 🙋‍♀️ Sobre el autor
 ¡Hola! Soy Melisa Cardozo , economista y actualmente estudio una maestría en Ciencia de Datos. Me apasiona aplicar la IA y el aprendizaje automático a la agricultura, la sostenibilidad y el análisis de datos.
 
-Si estás interesado en temas similares o te gustaría colaborar, no dudes en conectarte conmigo en LinkedIn .
+Si estás interesado en temas similares o te gustaría colaborar, no dudes en conectarte conmigo en [LinkedIn](https://www.linkedin.com/).
 
 ---
 
