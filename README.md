@@ -37,7 +37,7 @@ Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, 
 
 ## 🏁 Resultados destacados
 
-En base a los resultados obtenidos para los distintos modelos y los valores de las métricas (especialmente **RMSE** como criterio principal), se observó que:
+En base a los modelos ganadores de cada catetgoria se resumieron los valores de las métricas (especialmente **RMSE** como criterio principal) en el siguiente cuadro y se observó que:
 
 | Cultivo |        ML Clásico            |     Redes Neuronales    |   Modelos Estadísticos      | AutoTS Ensemble   |  **Ganador Final** |
 | --------|------------------------------|-------------------------|-----------------------------|-------------------|--------------------|
