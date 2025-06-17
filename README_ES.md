@@ -1,5 +1,5 @@
 # 🌾 Forecasting Commodities Prices with Time Series Models
-
+GB[Read in English](./README.md)
 Este proyecto busca identificar el mejor modelo de predicción para precios mensuales de tres commodities clave: **carne**, **maíz** y **soja**.
 
 Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, redes neuronales, modelos estadísticos y AutoTS. El análisis incluyó tanto el entrenamiento como la evaluación sobre pronósticos de 12 meses, comparando luego con los datos reales disponibles.
