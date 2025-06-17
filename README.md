@@ -10,14 +10,15 @@ More than 25 models were applied, including classic machine learning regressors,
 
 ## 📌 Table of Contents
 
-- [1. Introduction](#1-introduction)
-- [2. Series Loading and Visualization](#2-series-loading-and-visualization)
-- [3. Classical ML Modeling](#3-classical-ml-modeling)
-- [4. Neural Network Modeling](#4-neural-network-modeling)
-- [5. Statistical Techniques Modeling](#5-statistical-techniques-modeling)
-- [6. STL Decomposition Analysis](#6-stl-decomposition-analysis)
-- [7. Forecast Evaluation with Real Data](#7-forecast-evaluation-with-real-data)
-- [8. Final Reflection and Learnings](#8-final-reflection-and-learnings)
+- [1. Introducción](#1-introducción)
+- [2. Carga y visualización de las series](#2-carga-y-visualización-de-las-series)
+- [3. Modelado y Evaluación](#3-modelado-y-evaluación)
+- [4. AutoML](#4-AutoML)
+- [5. Comparación Final de Modelos y Selección del Ganador](#5-comparación-final-de-modelos-y-selección-del-ganador)
+- [6. Pronóstico Final con Modelo Seleccionado GLM Gaussiano](#6-pronóstico-con-el-modelo-seleccionado-glm-gaussiano)
+- [7. Analisis de Estacionalidad STL](#7-análisis-de-estacionalidad-stl)
+- [8. Evaluacion Ex-Post con Datos Reales Observados Oct 2024 - May 2025](#8-evaluación-ex-post-con-datos-reales-observados-oct-2024--may-2025)
+- [9. Reflexion Final y Aprendizajes](#9-reflexión-final-y-apredizajes)
 
 ---
 
