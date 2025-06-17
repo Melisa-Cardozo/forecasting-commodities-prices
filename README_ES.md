@@ -57,8 +57,11 @@ Este proyecto me permitió comparar enfoques clásicos, estadísticos y neuronal
 > **Este trabajo fue realizado como parte de mi formación en Ciencia de Datos, pero con el objetivo de integrar mi portfolio profesional para postularme a puestos como Data Analyst o ML Engineer.**
 
 ---
+🙋‍♀️ Sobre el autor
+¡Hola! Soy Melisa Cardozo , economista y actualmente estudio una maestría en Ciencia de Datos. Me apasiona aplicar la IA y el aprendizaje automático a la agricultura, la sostenibilidad y el análisis de datos.
 
-## 🧷 Nota
+Si estás interesado en temas similares o te gustaría colaborar, no dudes en conectarte conmigo en LinkedIn .
 
-Si los enlaces de esta tabla no funcionan directamente en GitHub, podés navegar por los encabezados del notebook. Esto se debe a que GitHub no interpreta anclas internas en archivos `.ipynb`.
+---
+
 
