@@ -11,13 +11,13 @@ Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, 
 
 - [1. Introducción](#1-introducción)
 - [2. Carga y visualización de las series](#2-carga-y-visualización-de-las-series)
-- [3. Modelado clásico con ML](#3-modelado-clásico-con-ml)
-- [4. Modelado con redes neuronales](#4-modelado-con-redes-neuronales)
-- [5. Modelado con técnicas estadísticas](#5-modelado-con-técnicas-estadísticas)
-- [6. Análisis de descomposición STL](#6-análisis-de-descomposición-stl)
-- [7. Evaluación del pronóstico con datos reales](#7-evaluación-del-pronóstico-con-datos-reales)
-- [8. Reflexión final y aprendizajes](#8-reflexión-final-y-aprendizajes)
-
+- [3. Modelado y Evaluación](#3-modelado-y-evaluación)
+- [4. AutoML](#4-AutoML)
+- [5. Comparación Final de Modelos y Selección del Ganador](#5-comparación-final-de-modelos-y-selección-del-ganador)
+- [6. Pronóstico Final con Modelo Seleccionado GLM Gaussiano](#6-pronóstico-con-el-modelo-seleccionado-glm-gaussiano)
+- [7. Analisis de Estacionalidad STL](#7-análisis-de-estacionalidad-stl)
+- [8. Evaluacion Ex-Post con Datos Reales Observados Oct 2024 - May 2025]
+- [9. Reflexion Final y Aprendizajes](#9-reflexión-final-y-apredizajes)
 ---
 
 ## 📊 Dataset
