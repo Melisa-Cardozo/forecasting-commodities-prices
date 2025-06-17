@@ -68,13 +68,6 @@ Forecasts were generated for the 12-month period between October 2024 and Septem
 
 ---
 
-## 🙋‍♀️ About the Author
-
-Hi! I'm **Melisa Cardozo**, an economist currently pursuing a Master’s degree in Data Science. I'm passionate about applying AI and machine learning to agriculture, sustainability, and data analysis.
-
-If you’re interested in similar topics or would like to collaborate, feel free to connect with me on [LinkedIn](https://www.linkedin.com/).
-
----
 
 ## 🌱 Reflections
 
@@ -85,4 +78,14 @@ This project allowed me to:
 - Understand the trade-offs between interpretability and accuracy.
 - Learn how external shocks can affect forecast reliability.
 - Build a clean, reproducible portfolio piece.
+
+---
+
+## 🙋‍♀️ About the Author
+
+Hi! I'm **Melisa Cardozo**, an economist currently pursuing a Master’s degree in Data Science. I'm passionate about applying AI and machine learning to agriculture, sustainability, and data analysis.
+
+If you’re interested in similar topics or would like to collaborate, feel free to connect with me on [LinkedIn](https://www.linkedin.com/).
+
+---
 
