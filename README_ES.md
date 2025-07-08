@@ -32,8 +32,8 @@ Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, 
   * **Soja:** USD por tonelada métrica.
   * **Maíz:** USD por tonelada métrica.
   * **Carne:** USD por kilogramo.
- 
-  * 📦 **Plantillas de AutoTS**
+
+📦 **Plantillas de AutoTS**
 La carpeta autots_templates/ contiene las plantillas de los mejores modelos generadas por AutoTS para cada commodity:
 
 * best_model_carne.csv
