@@ -34,11 +34,15 @@ Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, 
   * **Carne:** USD por kilogramo.
 
 📦 **Plantillas de AutoTS**
-La carpeta autots_templates/ contiene las plantillas de los mejores modelos generadas por AutoTS para cada commodity:
 
-* best_model_carne.csv
-* best_model_maiz.csv
-* best_model_soja.csv
+La carpeta `autots_templates/` contiene las plantillas de los mejores modelos generadas por AutoTS para cada commodity:
+
+- `best_model_carne.csv`  
+- `best_model_maiz.csv`  
+- `best_model_soja.csv`
+
+Estos archivos fueron utilizados para recargar los modelos seleccionados y reproducir los pronósticos finales mostrados en el notebook.
+
 
 📌 **Referencias:**
 
