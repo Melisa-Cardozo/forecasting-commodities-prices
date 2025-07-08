@@ -1,71 +1,124 @@
-# 🌾 Forecasting Commodities Prices with Time Series Models
+🌾 Forecasting Agricultural Commodity Prices using Time Series Models
 
-🇪🇸 [Leer en español](./README_ES.md)
+🇪🇸 Leer en español
 
-This project aims to identify the best prediction model for monthly prices of three key commodities: **beef**, **corn**, and **soybeans**.
+This project aims to identify the best prediction models for monthly prices of three key agricultural commodities: Beef, Corn, and Soybeans.
 
-More than 25 models were applied, including classic machine learning regressors, neural networks, statistical models, and AutoTS. The analysis involved training and 12-month forecasting, followed by a comparison against the real observed data.
+Over 25 models were tested, including classical machine learning regressors, neural networks, statistical models, and AutoML (AutoTS). Each model was trained and validated for 12-month forecasts, then compared against real observed data.
 
----
+📌 Table of Contents
 
-## 📌 Table of Contents
+Introduction
 
-- [1. Introducción](#1-introducción)
-- [2. Carga y visualización de las series](#2-carga-y-visualización-de-las-series)
-- [3. Modelado y Evaluación](#3-modelado-y-evaluación)
-- [4. AutoML](#4-AutoML)
-- [5. Comparación Final de Modelos y Selección del Ganador](#5-comparación-final-de-modelos-y-selección-del-ganador)
-- [6. Pronóstico Final con Modelo Seleccionado GLM Gaussiano](#6-pronóstico-con-el-modelo-seleccionado-glm-gaussiano)
-- [7. Analisis de Estacionalidad STL](#7-análisis-de-estacionalidad-stl)
-- [8. Evaluacion Ex-Post con Datos Reales Observados Oct 2024 - May 2025](#8-evaluación-ex-post-con-datos-reales-observados-oct-2024--may-2025)
-- [9. Reflexion Final y Aprendizajes](#9-reflexión-final-y-apredizajes)
+Data Loading and Visualization
 
----
+Modeling and Evaluation
 
-## 📊 Dataset
+AutoML Implementation
 
-- **Source:** Simulated dataset with a realistic monthly time series structure from 2010 to 2025.
-- **Frequency:** Monthly.
-- **Columns:** Date, Beef, Corn, Soybeans.
+Final Model Comparison and Winner Selection
 
----
+Final Forecast with Selected GLM Gaussian Model
 
-## 🧠 Technologies Used
+Seasonality Analysis with STL
 
-- Python (Pandas, Matplotlib, Seaborn, Statsmodels, Scikit-learn, Keras, AutoTS)
-- Jupyter Notebook
-- Visual Studio Code
+Ex-Post Evaluation (Real Data Oct 2024 - May 2025)
 
----
+Final Reflections and Learnings
 
-## 🏁 Key Results
+📊 Dataset Information
 
-Based on the best-performing models from each category, the following table summarizes the error metrics (especially **RMSE** as the main criterion), and shows:
+Source: Simulated realistic dataset structured as monthly time series from January 2010 to May 2025.(Data from October 2024 to May 2025 was not used during model training; it was exclusively reserved for ex-post validation to evaluate the predictive accuracy of the final selected model.)
 
-| Commodity | Classical ML                | Neural Networks         | Statistical Models           | AutoTS Ensemble        | Final Winner       |
-|-----------|-----------------------------|-------------------------|------------------------------|------------------------|--------------------|
-| Beef      | AdaBoost Regressor (0.3112) | Tuned LSTM (0.2157)     | **GLM Gaussian (0.1935)**    | Ensemble (0.49)        |  GLM Gaussian      |
-| Corn      | Gradient Boosting (21.15)   | Tuned NNAR (17.47)      | **GLM Gaussian (16.74)**     | Ensemble (60.24)       |  GLM Gaussian      |
-| Soybeans  | AdaBoost Regressor (48.65)  | Simple LSTM (37.38)     | **GLM Gaussian (32.56)**     | Ensemble (166.02)      |  GLM Gaussian      |
+Frequency: Monthly.
 
-🔍 *The `GLM Gaussian` model proved to be the most efficient in all three cases, achieving the lowest **Root Mean Square Error (RMSE)** and demonstrating more stable behavior compared to other approaches.*
-> *The forecasts were compared to real values observed between October 2024 and May 2025.*
+Columns: Date, Beef, Corn, Soybeans.
 
----
+🧠 Technologies Used
 
-## 🧭 Reflection
+Python: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scikit-learn, Keras, AutoTS
 
-This project allowed me to compare classical, statistical, and neural network approaches for time series forecasting, evaluate their strengths and weaknesses, and understand why some models generalize better. I also experimented with AutoML and learned to interpret results from a practical perspective.
+Tools: Jupyter Notebook, Visual Studio Code
 
-> **This project was developed as part of my Data Science training, with the goal of including it in my professional portfolio for applying to Data Analyst or ML Engineer positions.**
+🏁 Key Results
 
----
+Based on the best-performing models in each category, the table summarizes RMSE metrics (lower values indicate better performance):
+
+Commodity
+
+Baseline Naïve
+
+Classical ML
+
+Neural Networks
+
+Statistical Models
+
+AutoTS Ensemble
+
+🥇 Final Winner
+
+Beef
+
+0.90
+
+0.3112
+
+0.2157
+
+0.1935
+
+0.49
+
+✅ GLM Gaussian
+
+Corn
+
+32.47
+
+21.15
+
+17.47
+
+16.74
+
+60.24
+
+✅ GLM Gaussian
+
+Soybeans
+
+137.84
+
+48.65
+
+37.38
+
+32.56
+
+166.02
+
+✅ GLM Gaussian
+
+🔍 Conclusion: The GLM Gaussian model was consistently the most effective, achieving the lowest RMSE across all three commodities and demonstrating more stable predictive performance compared to alternative approaches.
+
+Forecasts were validated against real observed data from October 2024 to May 2025, confirming the robustness of the chosen model.
+
+🧭 Reflection and Learnings
+
+Through this project, I gained hands-on experience comparing classical, statistical, and neural network approaches for time series forecasting. It deepened my understanding of:
+
+The strengths and limitations of each modeling approach.
+
+Why certain models generalize and perform better in forecasting tasks.
+
+Implementing AutoML techniques (AutoTS) and interpreting their practical implications.
+
+This work was developed as part of my Data Science Master's program, intended to be included in my professional portfolio for roles as a Data Analyst or Machine Learning Engineer.
 
 🙋‍♀️ About the Author
 
-Hi! I'm Melisa Cardozo, an economist currently studying a Master's in Data Science. I'm passionate about applying AI and machine learning to agriculture, sustainability, and data analysis.
+Hi! I'm Melisa Cardozo, an economist currently pursuing a Master's in Data Science. I'm passionate about applying artificial intelligence and machine learning to agriculture, sustainability, and impactful data analysis.
 
-If you’re interested in similar topics or would like to collaborate, feel free to connect with me on [LinkedIn](https://www.linkedin.com/).
-
----
+🌐 Connect with me on LinkedIn.
 
