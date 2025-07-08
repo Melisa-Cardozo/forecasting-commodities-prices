@@ -70,7 +70,7 @@ Se compararon los pronósticos generados con los valores reales observados entre
 
 Este proyecto me permitió comparar enfoques clásicos, estadísticos y neuronales para forecasting, evaluar sus ventajas y limitaciones, y entender por qué algunos modelos generalizan mejor. También experimenté con AutoML y aprendí a interpretar los resultados desde un enfoque práctico.
 
-Este trabajo fue realizado como parte de mi formación en Ciencia de Datos, con el objetivo de integrarlo en mi portfolio profesional para postularme a puestos como Data Analyst o ML Engineer.
+Este trabajo fue realizado como parte de mi formación en Ciencia de Datos, con el objetivo de integrarlo en mi portfolio profesional.
 
 ---
 
