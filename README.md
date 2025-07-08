@@ -62,7 +62,7 @@ Through this project, I gained hands-on experience comparing classical, statisti
 * Why certain models generalize and perform better in forecasting tasks.
 * Implementing AutoML techniques (AutoTS) and interpreting their practical implications.
 
-This work was developed as part of my Data Science Master's program, intended to be included in my professional portfolio for roles as a Data Analyst or Machine Learning Engineer.
+This work was developed as part of my Data Science Master's program, intended to be included in my professional portfolio.
 
 ---
 
