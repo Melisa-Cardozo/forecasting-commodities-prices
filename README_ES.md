@@ -32,6 +32,13 @@ Se aplicaron más de 25 modelos entre regresores clásicos de machine learning, 
   * **Soja:** USD por tonelada métrica.
   * **Maíz:** USD por tonelada métrica.
   * **Carne:** USD por kilogramo.
+ 
+  * 📦 **Plantillas de AutoTS**
+La carpeta autots_templates/ contiene las plantillas de los mejores modelos generadas por AutoTS para cada commodity:
+
+* best_model_carne.csv
+* best_model_maiz.csv
+* best_model_soja.csv
 
 📌 **Referencias:**
 
@@ -86,18 +93,19 @@ Este trabajo fue realizado como parte de mi formación en Ciencia de Datos, con 
 
 ```
 forecasting-commodities/
-├── data/                         
+├── autots_templates/
+│   ├── best_model_carne.csv
+│   ├── best_model_maiz.csv
+│   └── best_model_soja.csv
+├── data/
 │   └── precios commodities.xlsx
-│
-├── notebooks/                    
+├── notebooks/
 │   └── forecasting commodities.ipynb
-│
-├── src/                          
+├── src/
 │   └── data.py
-│
-├── README.md                     
-├── README_ES.md                  
-└── requirements_clean.txt        
+├── README.md
+├── README_ES.md
+└── requirements_clean.txt    
 ```
 
 
